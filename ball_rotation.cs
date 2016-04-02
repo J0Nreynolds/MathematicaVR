@@ -101,6 +101,5 @@ public class JointOrientation : MonoBehaviour
                   return angle + 360.0f;
                 }
                 return angle;
-                
               }
             }
