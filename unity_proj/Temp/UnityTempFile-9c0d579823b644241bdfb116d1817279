@@ -90,6 +90,7 @@
 'Assets/Myo/Scripts/Myo.NET/libmyo.cs'
 'Assets/Myo/Scripts/ThalmicHub.cs'
 'Assets/Myo/Scripts/ThalmicMyo.cs'
+'Assets/MyoCouch.cs'
 'Assets/NewBehaviourScript.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Xml.Linq.dll'

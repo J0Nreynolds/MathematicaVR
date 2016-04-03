@@ -34,11 +34,11 @@ public class SampleSceneGUI : MonoBehaviour
             );
         } else {
             GUI.Label (new Rect (12, 8, Screen.width, Screen.height),
-                "Fist: Set Forward direction\n" +
+                "Fist: Vibrate Myo armband\n" +
                 "Wave in: Set box material to blue\n" +
                 "Wave out: Set box material to green\n" +
                 "Double tap: Reset box material\n" +
-                "Fingers spread: Vibrate Myo Band"
+                "Fingers spread: Set forward direction"
             );
         }
     }
