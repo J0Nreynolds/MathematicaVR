@@ -12,9 +12,10 @@ public class NewBehaviourScript : MonoBehaviour {
 	public string zmax = "Enter a maximum value for z";
 	int i = 0;
 	void OnGUI(){
+		GUI.color = Color.magenta;
 		string[] vals = { zmax, zmin, ymax, ymin, xmax, xmin, funct };
 		for(i=0; i<=6; i++){
-			vals[i] = GUI.TextField (new Rect (transform.position.x + 165, transform.position.y, 200, 30), vals[i]);
+			vals[i] = GUI.TextField (new Rect (transform.position.x + 165, transform.position.y + 15, 200, 30), vals[i]);
 		}
 	}
 	void MoveBack(){
@@ -26,3 +27,4 @@ public class NewBehaviourScript : MonoBehaviour {
 		}
 	}
 }
+		
